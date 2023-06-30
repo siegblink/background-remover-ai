@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: 'Background Remover AI',
     description: 'Remove the background from any image with a single click.',
-    images: ['public/app-screenshot.png'],
+    images: ['/app-screenshot.png'],
   },
 };
 
