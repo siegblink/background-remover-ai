@@ -1,4 +1,5 @@
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google';
 import { Sidebar } from './sidebar';
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className={inter.className}>
         <Sidebar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
